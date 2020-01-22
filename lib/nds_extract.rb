@@ -25,6 +25,7 @@ def directors_totals(nds)
       movie+=1
     end
     name +=1
+  end  
   nil
   result
 end

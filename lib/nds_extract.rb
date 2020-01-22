@@ -20,10 +20,10 @@ def directors_totals(nds)
     result[name] = 0 
     movie = 0
     while row < nds[name][:movies].length do
-    result[:name] = nds[name][:movies][movie][:worldwide_gross]
-    movie+=1
-  end
-
+      result[:name] = nds[name][:movies][movie][:worldwide_gross]
+      movie+=1
+    end
+    name +=1
   nil
   result
 end

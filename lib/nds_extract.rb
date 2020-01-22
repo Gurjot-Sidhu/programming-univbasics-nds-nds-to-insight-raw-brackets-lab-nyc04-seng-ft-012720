@@ -18,7 +18,7 @@ def directors_totals(nds)
   row = 0 
   column = 0
   while row < directors_database[0][:movies].length do
-    directors_database[0][row][:worldwide_gross]
+    result[directors_database]directors_database[0][row][:worldwide_gross]
   end
   nil
 end

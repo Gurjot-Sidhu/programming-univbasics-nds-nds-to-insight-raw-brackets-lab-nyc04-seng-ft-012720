@@ -19,10 +19,10 @@ def directors_totals(nds)
     name = nds[name][:name]
     result[name] = 0 
     movie = 0
-  end
-  while row < directors_database[0][:movies].length do
+    while row < nds[name][:movies].length do
     result[directors_database][:name] = directors_database[0][row][:worldwide_gross]
   end
+end
   nil
   result
 end

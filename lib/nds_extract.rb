@@ -21,4 +21,5 @@ def directors_totals(nds)
     result[directors_database][:name] = directors_database[0][row][:worldwide_gross]
   end
   nil
+  result
 end
